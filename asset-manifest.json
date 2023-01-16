@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Thinkwave-web/static/css/main.0faa09c4.css",
+    "main.js": "/Thinkwave-web/static/js/main.345314d9.js",
+    "index.html": "/Thinkwave-web/index.html",
+    "main.0faa09c4.css.map": "/Thinkwave-web/static/css/main.0faa09c4.css.map",
+    "main.345314d9.js.map": "/Thinkwave-web/static/js/main.345314d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0faa09c4.css",
+    "static/js/main.345314d9.js"
+  ]
+}
