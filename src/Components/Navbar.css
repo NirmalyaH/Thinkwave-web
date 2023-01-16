@@ -1,0 +1,84 @@
+.navbar .max_width {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border: .5px solid #e5e5e5;
+}
+
+.nav_container {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav_location svg {
+    width: 30px;
+    height: 30px;
+    fill: #666666;
+
+}
+
+.dflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_search input {
+    margin-left: 0.2rem;
+    width: 17rem;
+    border: 0;
+    padding: 0.5rem 1rem;
+    outline: 0;
+}
+
+.nav_search svg {
+    width: 3rem;
+    height: 3rem;
+    fill: #666666;
+
+}
+
+.nav_login svg {
+    width: 3rem;
+}
+
+.nav_login {
+    font-size: 1.5rem;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: #666;
+    fill: #666666;
+}
+
+.bottom_navbar li {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: var(--opensans);
+    cursor: pointer;
+}
+
+.bottom_navbar li a {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.bottom_navbar li a:hover {
+    color: #A8E890;
+}
+
+.bottom_navbar li a:hover:after {
+    position: absolute;
+    bottom: -22%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -00%);
+    content: "";
+    width: 100%;
+    height: 0.2rem;
+    background: #A8E890;
+}
