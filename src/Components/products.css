@@ -1,0 +1,23 @@
+.products .max_width {
+    width: 100%;
+    padding: 10rem 10rem;
+}
+
+.quick_tools .tool svg {
+    width: 3rem;
+    fill: #e5e5e5;
+}
+
+.quick_tools .tool {
+    color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--poppins);
+    font-weight: 500;
+}
+
+.quick_tools {
+    padding: 1rem;
+    background: #666666;
+}
