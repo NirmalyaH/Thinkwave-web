@@ -37,10 +37,10 @@ export const Navbar = () => {
             </div>
             <div className="max_width">
                 <ul className={"bottom_navbar"}>
-                    <li className="nav"><a href="">Home</a></li>
-                    <li className="nav"><a href="">Equipment</a></li>
-                    <li className="nav"><a href="">Finance</a></li>
-                    <li className="nav"><a href="">Parts & Service</a></li>
+                    <li className="nav"><a href="/">Home</a></li>
+                    <li className="nav"><a href="/">Equipment</a></li>
+                    <li className="nav"><a href="/">Finance</a></li>
+                    <li className="nav"><a href="/">Parts & Service</a></li>
                 </ul>
             </div>
         </div>

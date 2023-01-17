@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../SIH-final/.idea/SIH-final.iml" filepath="$PROJECT_DIR$/../SIH-final/.idea/SIH-final.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/thinkwave.iml" filepath="$PROJECT_DIR$/.idea/thinkwave.iml" />
     </modules>
   </component>

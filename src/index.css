@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@300;400;500&family=Roboto:wght@400;500&display=swap');
 
+@font-face {
+    font-family: "LuloClean";
+    src: local("LuloClean"), url("assets/fonts/LuloClean.ttf");
+}
+
+@font-face {
+    font-family: "AvenirLight";
+    src: local("AvenirLight"), url("assets/fonts/AvenirLight.ttf");
+}
+
+@font-face {
+    font-family: "AvenirNextLTW04Thin";
+    src: local("AvenirNextLTW04Thin"), url("assets/fonts/AvenirNextLTW04Thin.ttf");
+}
+
+@font-face {
+    font-family: "AvenirNextW04Regular";
+    src: local("AvenirNextW04Regular.ttf"), url("assets/fonts/AvenirNextW04Regular.ttf");
+}
 
 * {
     margin: 0;
@@ -15,4 +34,9 @@ html {
     --opensans: 'Open Sans', sans-serif;
     --poppins: 'Poppins', sans-serif;
     --roboto: 'Roboto', sans-serif;
+    --luloClean: 'LuloClean', sans-serif;
+    --AvenirLight:'AvenirLight',sans-serif;
+    --AvenirNextLTW04Thin:'AvenirNextLTW04Thin',sans-serif;
+    --AvenirNextW04Regular:'AvenirNextW04Regular',sans-serif;
+
 }
