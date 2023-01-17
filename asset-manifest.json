@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/Thinkwave-web/static/css/main.0faa09c4.css",
-    "main.js": "/Thinkwave-web/static/js/main.345314d9.js",
+    "main.css": "/Thinkwave-web/static/css/main.ef3e10b9.css",
+    "main.js": "/Thinkwave-web/static/js/main.4bf4e251.js",
+    "static/media/AvenirNextW04Regular.ttf": "/Thinkwave-web/static/media/AvenirNextW04Regular.81979da1cd4270cea87f.ttf",
+    "static/media/AvenirNextLTW04Thin.ttf": "/Thinkwave-web/static/media/AvenirNextLTW04Thin.ba707bed3259772e7d24.ttf",
+    "static/media/AvenirLight.ttf": "/Thinkwave-web/static/media/AvenirLight.3d58440667d5d20a9f02.ttf",
+    "static/media/LuloClean.ttf": "/Thinkwave-web/static/media/LuloClean.cf6ce051896b18d3449b.ttf",
     "index.html": "/Thinkwave-web/index.html",
-    "main.0faa09c4.css.map": "/Thinkwave-web/static/css/main.0faa09c4.css.map",
-    "main.345314d9.js.map": "/Thinkwave-web/static/js/main.345314d9.js.map"
+    "main.ef3e10b9.css.map": "/Thinkwave-web/static/css/main.ef3e10b9.css.map",
+    "main.4bf4e251.js.map": "/Thinkwave-web/static/js/main.4bf4e251.js.map"
   },
   "entrypoints": [
-    "static/css/main.0faa09c4.css",
-    "static/js/main.345314d9.js"
+    "static/css/main.ef3e10b9.css",
+    "static/js/main.4bf4e251.js"
   ]
 }
