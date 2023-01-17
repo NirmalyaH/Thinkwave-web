@@ -9,7 +9,11 @@
 }
 
 .creditsHeadingContainer .col:nth-child(1) {
-    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60rem;
     background: radial-gradient(circle at 50% 50%, #FFBF23 0%, #EED705 100%);
 }
 
@@ -29,4 +33,51 @@
 .creditsHeadingContainer .col figure img {
     width: 100%;
     height: 100%;
+}
+
+.creditsHeadingContainer .col .heading {
+    text-align: center;
+    font-size: 5rem;
+    font-family: var(--roboto);
+    font-weight: 500;
+}
+
+.creditsHeadingContainer .col .sub_heading {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    word-spacing: 0.1rem;
+    font-family: var(--AvenirLight);
+}
+
+.creditsGalleryContainer {
+    width: 100%;
+    padding: 8rem;
+}
+
+.cardImg {
+    width: 30rem;
+    height: 40rem;
+    object-fit: cover;
+    border: 5px solid black;
+}
+
+.cardHeading {
+    width: 100%;
+    font-size: 2rem;
+    font-family: var(--AvenirNextW04Regular);
+    font-weight: 500;
+}
+
+.card {
+    width: 30rem;
+}
+
+.cardText {
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+    font-family: var(--AvenirLight);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
