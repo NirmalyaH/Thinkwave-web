@@ -1,18 +1,183 @@
 .h_container {
     width: 100%;
+    height: 50rem;
     display: flex;
     overflow: scroll;
     text-align: center;
     font-size: 1.5rem;
     font-family: var(--poppins);
     font-weight: 500;
+    gap: 4rem;
+
+}
+
+.carousel-inner {
+    height: 100%;
 }
 
 .h_container::-webkit-scrollbar {
     display: none;
 }
 
-.h_headingBanner figure img {
-    margin-top: 3rem;
+.carousel-item img {
+    object-fit: fill;
+}
+
+.layout {
     width: 100%;
+    height: 100%;
+    background: #000000; /* fallback for old browsers */
+    opacity: 0.2;
+    object-fit: fill;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+
+.p_heading {
+    padding: 8rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--luloClean);
+    font-weight: 800;
+}
+
+.product_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.p_container {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_container .p_container img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 10px;
+    border: 4px solid #1a2b6d;
+    transition: all 500ms ease-in-out;
+}
+
+
+.product_container .p_container img:hover {
+    scale: 1.05;
+}
+
+.productTitle {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: var(--opensans);
+    padding: 2rem 0;
+}
+
+.product_info {
+    font-size: 1.5rem;
+    font-family: var(--AvenirNextLTW04Thin);
+    text-align: center;
+}
+
+.featureProduct {
+    margin-top: 10rem;
+    position: relative;
+}
+
+.featureProduct img {
+    width: 100%;
+    height: 60rem;
+}
+
+.featureContent {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+
+.featureHeading {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: var(--luloClean);
+    color: #fff;
+    z-index: 100;
+    padding: 2rem 0;
+}
+
+.featureContainer {
+    width: 100%;
+    display: flex;
+    padding: 5rem;
+    gap: 10rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.featureContainer img {
+    width: 40rem;
+    height: auto;
+    border: 4px solid #e5e5e5;
+}
+
+.featureCol {
+    width: 80rem;
+    color: #fff;
+    font-family: var(--AvenirNextW04Regular);
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.layout2 {
+    background: -webkit-linear-gradient(to bottom, #251f1f, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #261919, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.8;
+}
+
+.mentors {
+    width: 100%;
+}
+
+.m_heading {
+    padding: 5rem;
+    text-align: center;
+    font-size: 4rem;
+    font-family: var(--AvenirNextW04Regular);
+    font-weight: 600;
+    color: #1a2b6d;
+}
+
+.mentorsContainer img {
+    border-radius: 50%;
+}
+
+.mentorsContainer {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+}
+.mentorsContainer p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-family: var(--AvenirNextW04Regular);
+    text-align: center;
+    font-weight: 600;
+    color: #000;
+}
+.featureBuy {
+    margin-top: 2rem;
+    float: right;
+    display: inline-block;
+    border: 4px solid white;
+    font-size: 3rem;
+    text-align: right;
+
 }

@@ -3,8 +3,7 @@ import "./Navbar.css";
 export const Navbar = () => {
     return (<div className="navbar">
             <div className="max_width">
-                <div className="nav_logo"><img src="https://www.deere.com/assets/images/deere-logo-agriculture.svg"
-                                               alt=""/></div>
+                <div className="nav_logo">Thinkwave</div>
                 <ul className="nav_container">
                     <li className="nav_search dflex">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -15,13 +14,6 @@ export const Navbar = () => {
                             </g>
                         </svg>
                         <input type="text" name="" id="" placeholder={"Search"}/>
-                    </li>
-                    <li className="dflex nav_location">
-                        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 3" viewBox="0 0 24 24">
-                            <path
-                                d="M12,2a8.009,8.009,0,0,0-8,8c0,3.255,2.363,5.958,4.866,8.819,0.792,0.906,1.612,1.843,2.342,2.791a1,1,0,0,0,1.584,0c0.73-.948,1.55-1.885,2.342-2.791C17.637,15.958,20,13.255,20,10A8.009,8.009,0,0,0,12,2Zm0,11a3,3,0,1,1,3-3A3,3,0,0,1,12,13Z"/>
-                        </svg>
-                        <p>Find the Dealer</p>
                     </li>
                     <li className="nav_login dflex">
                         <svg color={'#666'} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -40,7 +32,7 @@ export const Navbar = () => {
                     <li className="nav"><a href="/">Home</a></li>
                     <li className="nav"><a href="/aboutus">About us
                     </a></li>
-                    <li className="nav"><a href="/credits">Credits</a></li>
+                    <li className="nav"><a href="/credits">Carriers</a></li>
                     <li className="nav"><a href="/">Parts & Service</a></li>
                 </ul>
             </div>

@@ -1,4 +1,5 @@
 .navbar .max_width {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -16,7 +17,13 @@
     fill: #666666;
 
 }
-
+.nav_logo{
+    padding-left: 3rem;
+    font-family: var(--luloClean);
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #1a2b6d;
+}
 .dflex {
     display: flex;
     justify-content: center;
